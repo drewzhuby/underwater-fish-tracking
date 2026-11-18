@@ -2,7 +2,19 @@
 
 本科项目的工程展示，串联视频抽帧、图像增强、YOLOv8 四类目标检测和 DeepSORT 轨迹关联。原项目还探索了 Farneback 光流辅助框位置调整。
 
-![合成图像的原图与 CLAHE](assets/demo.jpg)
+## 研究技术路线
+
+![论文中的研究技术路线](assets/research_pipeline.png)
+
+来源为本科论文图 1-1（论文第 9 页，PDF 第 18 页），包含预处理、检测模型比较与跟踪流程。
+
+## 原 PPT 视频展示
+
+![原 PPT 视频的循环预览](assets/tracking_preview.gif)
+
+[查看或下载原 PPT 中的 5 秒 MP4 视频](assets/tracking_demo.mp4)
+
+预览 GIF 从 PPT 内嵌视频转换，MP4 保留原始视频。画面显示历史检测框、类别、置信度与 ID 标注，可见部分文字重叠。该视频为历史演示片段。
 
 ## 流程与目录
 
